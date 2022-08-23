@@ -1,0 +1,16 @@
+#account-home-container {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#account-info-container {
+  width: 30%;
+}
+
+#customer-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

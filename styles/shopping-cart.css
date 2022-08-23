@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Set up */
+.container {
+  display: flex;
+  justify-content: center;
+  width: auto;
+}
+
+.content-container {
+  width: 85vw;
+  max-width: 1080px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.thankyou-content-container {
+  width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.left-content {
+  width: 65%;
+  margin-top: 100px;
+}
+
+.right-content {
+  width: 30%;
+  margin-top: 100px;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Headings for the items */
+#items-header {
+  width: 100%;
+  background-color: lightgray;
+  margin: 10px 0px 10px 0px;
+}
+
+tr td {
+  padding: 10px;
+}
+
+tr td:first-child {
+  width: 60%;
+}
+
+tr td:nth-child(2) {
+  width: 20%;
+}
+
+tr td:last-child {
+  width: 20%;
+}
+
+/* Cart Item */
+.cart-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-product-info-row {
+  display: inline-flex;
+}
+
+.cart-product-info-row-two {
+  width: 40%;
+}
+
+.cart-item-img {
+  width: 125px;
+}
+
+.cart-product-info {
+  display: inline-flex;
+  flex-direction: column;
+  margin-left: 1em;
+}
+
+.cart-product-info h4 {
+  margin: 5px 0 5px 0;
+  color: black;
+}
+
+.cart-item-remove {
+  margin-top: auto;
+  color: rgb(68, 67, 67);
+  border-radius: 5px;
+}
+
+.cart-item-remove:hover {
+  cursor: pointer;
+  background-color: rgb(43, 42, 42);
+  color: white;
+}
+
+.cart-product-price {
+  margin-left: 15%;
+}
+
+/* Qty update buttons */
+.qty-update-combine {
+  display: inline-flex;
+  align-items: center;
+  flex-direction: row;
+  border: thin solid dimgray;
+  background: #fff;
+  height: 32px;
+}
+
+input::-webkit-outer-spin-button, /* To get rid of spinners on Chrome, etc */
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.qty-update-combine input[type="number"] {
+  -moz-appearance: textfield; /* Get rid of spinners on Firefox */
+  appearance: textfield;
+  width: 2.5em;
+  height: 30px;
+  text-align: center;
+  border: thin solid dimgray;
+  border-width: medium 1px;
+  border-style: none solid;
+}
+
+.qty-change-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 32px;
+  border: 0px none;
+  cursor: pointer;
+}
+
+.qty-change-button:hover {
+  background-color: rgb(88, 87, 87);
+  color: white;
+}
+
+/* Order summary element */
+#order-title {
+  margin-top: 30px;
+}
+
+.order-summary {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.order-summary input {
+  width: 55%;
+  padding: 15px;
+}
+
+.flex-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  background-color: darkorange;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.button:hover{
+  background-color: chocolate;
+  transition: all 500ms ease;
+}
+
+#apply-promo-code {
+  width: 30%;
+  color: #fff;
+}
+
+#delivery {
+  width: 100%;
+  border-radius: 0px;
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+.checkout-button {
+  width: 100%;
+  margin-top: 25px;
+}
+
+/* #checkout-button:hover {
+  background-color: chocolate;
+  transition: all 500ms ease;
+} */
+
+/* Checkout */
+#form-email input,
+#form-shipping input,
+#form-card-details input,
+#form-billing input {
+  padding: 15px;
+  margin: 0 0 15px 0;
+  box-sizing: border-box;
+}
+
+.long-input {
+  width: 100%;
+}
+
+.short-input {
+  width: 48%;
+}
+
+#lastname,
+#postcode,
+#cvv,
+#lastname-billing,
+#postcode-billing {
+  float: right;
+}
+
+#form-billing {
+  max-height: fit-content;
+  transition: height 0.2s ease-out;
+}
+
+.order-summary ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.order-summary li {
+  margin-bottom: 10px;
+  /* list-style: disc; */
+}
+
+.final-item {
+  font-weight: bold;
+}
+
+.item-price {
+  align-self: flex-end;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bolden {
+  font-weight: bold;
+}
+
+.total-row{
+  font-weight: bold;
+  font-size: 1.1250em; /* 18px */
+}

@@ -1,0 +1,189 @@
+.navigation {
+  top: 0;
+  right: 0;
+  width: 100vw;
+}
+
+#nav-row-1 {
+  background-color: #e5e5e4;
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+#nav-row-2 {
+  background-color: white;
+  align-items: center;
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-container {
+  width: 85%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li {
+  list-style: none;
+}
+
+.headermenu ul {
+  /* list-style-type: disc; */
+  margin: 0;
+  padding: 0;
+}
+
+.headermenu li {
+  display: inline-block;
+  position: relative;
+}
+
+.searchbtn {
+  background-color: darkorange;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  text-transform: capitalize;
+}
+
+.searchbtn:hover {
+  background-color: chocolate;
+  transition: all 500ms ease;
+}
+
+.menuarea {
+  width: 40%;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.rightlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logoarea {
+  width: 10%;
+}
+
+#logoLink {
+  font-size: 1.5rem;
+}
+
+#logoLink:hover {
+  color: chocolate;
+  transition: 0.5s ease;
+}
+
+.rightarea {
+  /* The below is just to get an idea of the space taken up */
+  /* border: 1px solid red; */
+  margin-right: 0;
+  width: auto;
+}
+
+li {
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  padding-inline-end: 30px;
+}
+
+.a {
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.a i:hover {
+  color: orange;
+  /* transition: 0.5s ease; */
+}
+
+/* .border{
+  position:relative;
+} */
+
+.border:hover::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: -10px; /*Change this to increase/decrease distance*/
+  border-bottom: 5px solid darkorange;
+}
+
+/* Dropdown */
+.dropbtn {
+  background-color: none;
+  padding: 14px;
+  font-size: 17px;
+  border: none;
+  text-decoration: none;
+  /* The below is just to get an idea of the space taken up */
+  /* border: 1px solid black;  */
+  margin: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  margin-top: 12px;
+  background-color: white;
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 6px 14px;
+  text-decoration: none;
+  display: block;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  color: darkorange;
+}
+
+form.search {
+  display: flex;
+}
+
+form.search input[type="text"] {
+  padding: 10px;
+  border: none;
+  float: left;
+  background-color: grey;
+  color: white;
+}
+.search input::placeholder {
+  color: white;
+  opacity: 1;
+}

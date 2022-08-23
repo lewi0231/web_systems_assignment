@@ -1,0 +1,86 @@
+strong{
+    color: darkorange;
+}
+
+.footer_connect {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: #E5E5E4;
+    padding: 30px;
+}
+
+.footer{
+    margin-top: 100px;
+}
+
+.form_email{
+    display: flex;
+    justify-content: center;
+}
+
+.footer_signup p{
+    margin-top: 0;
+}
+
+.form_email input, select{
+    border-radius: 0px;
+    border: 1px solid grey;
+}
+
+.form_email input, button{
+    padding: 10px;
+}
+
+.form_email select{
+    padding: 10px 5px;
+    border-left: none;
+}
+
+.form_email button{
+    background-color: darkorange;
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: darkorange 1px solid;
+    margin-left: 1em;
+}
+
+.form_email button:hover{
+    background-color: chocolate;
+    transition: all 500ms ease;
+    border: chocolate 1px solid;
+}
+
+.footer-links{
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+    padding: 30px;
+    font-size: 0.900em;
+}
+
+.footer-container{
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.footer-links ul {
+    margin: 0;
+    padding: 0;
+}
+
+.leftfooter{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
